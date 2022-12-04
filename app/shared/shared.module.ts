@@ -1,9 +1,7 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CounterService } from './counter.service';
 
-@NgModule({
-  providers: [CounterService],
-})
+@NgModule({})
 export class SharedModule {
   static forRoot(): ModuleWithProviders {
     return {
